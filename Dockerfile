@@ -33,9 +33,9 @@ ADD --chmod=664 https://github.com/qemus/virtiso-whql/releases/download/v1.9.43-
 EXPOSE 8006 3389
 VOLUME /storage
 
-ENV RAM_SIZE="4G"
-ENV CPU_CORES="2"
-ENV DISK_SIZE="64G"
-ENV VERSION="win11"
+ENV RAM_SIZE="512G"
+ENV CPU_CORES="1"
+ENV DISK_SIZE="13"
+ENV VERSION="win10e"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
