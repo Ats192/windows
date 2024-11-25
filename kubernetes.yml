@@ -35,9 +35,9 @@ spec:
         - name: RAM_SIZE
           value: "16G"
         - name: CPU_CORES
-          value: "4"
+          value: "8"
         - name: DISK_SIZE
-          value: "32G"
+          value: "50G"
       volumeMounts:
         - mountPath: /storage
           name: storage
