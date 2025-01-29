@@ -31,7 +31,7 @@ spec:
         privileged: true
       env:
         - name: VERSION
-          value: "11"
+          value: "10"
         - name: RAM_SIZE
           value: "16G"
         - name: CPU_CORES
